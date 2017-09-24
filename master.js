@@ -56,7 +56,7 @@ void (function(mw, $, window, FandomToolbar){
 				obj = [];
 				obj = Array.apply(obj, lines.map(function(line){
 					return line.trim();
-				});
+				}));
 			}
 			return {
 				then: function(callback){
