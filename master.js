@@ -62,7 +62,7 @@ void (function(mw, $, window, FandomToolbar){
 				then: function(callback){
 					callback.apply(window, [obj]);
 				},
-				value: obj
+				value: obj,
 				toString: function(){
 					return JSON.stringify(obj);
 				}
