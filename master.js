@@ -40,7 +40,7 @@ void (function(mw, $, window, FandomToolbar){
 					var heading_regex = /\_(?:\s+|)([\w\d\-\s\&\?\.]+)(?:\s+|)\_/gi;
 					if (heading_regex.test(line)){
 						if (index > 0 && index < lines.length - 1){
-							json += ', \n' +;
+							json += ', \n';
 						}
 						json += '"' + line.replace(heading_regex, '$1').trim() + '": ';
 					} else {
